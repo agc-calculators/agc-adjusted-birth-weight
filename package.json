@@ -1,5 +1,5 @@
 {
-  "name": "agc-adjusted-birth-weight",
+  "name": "@agc-calculators/agc-adjusted-birth-weight",
   "version": "1.0.0",
   "description": "",
   "module": "dist/esm/index.js",
