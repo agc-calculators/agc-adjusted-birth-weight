@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+  <title>Adjusted Birth Weight Calculator</title>
+  <link rel="stylesheet" href="/build/agc-adjusted-birth-weight.css" type="text/css" />
+  <script src="/build/agc-adjusted-birth-weight.js"></script>
+</head>
+<body>
+
+    <agc-adjusted-birth-weight socket="example" mode="full">
+      <div slot="results">
+        <agc-adjusted-birth-weight-results socket="example">
+          <div slot="empty">
+            <agc-adjusted-birth-weight-results-placeholder></agc-adjusted-birth-weight-results-placeholder>
+          </div>
+        </agc-adjusted-birth-weight-results>
+      </div>
+    </agc-adjusted-birth-weight>
+
+    <script>
+      var el = document.querySelector('agc-adjusted-birth-weight')
+      el.units = { weight: 'lbs' }
+    </script>
+</body>
+</html>
